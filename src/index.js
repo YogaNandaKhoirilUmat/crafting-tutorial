@@ -23,6 +23,6 @@ mongoose.connection.on('error', (error) => console.log(error));
 app.use('/', router());
 
 server.listen(8080, () => {
-    console.log('Server is running on http://localhost:8080');
+    console.log('Server is running on http://localhost:8080/tutorial/');
 
 });
