@@ -21,7 +21,7 @@ const materialSchema = new mongoose.Schema({
 });
 
  
-const materialModel = mongoose.model('tutorialschema', materialSchema);
+const materialModel = mongoose.model('tutorialschemas', materialSchema);
 
 module.exports = materialModel;
 
